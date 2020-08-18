@@ -1,5 +1,5 @@
 {
-  "name": "next-strapi",
+  "name": "next-restro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,5 +19,13 @@
     "react-slick": "^0.27.8",
     "reactstrap": "^8.5.1",
     "simple-react-lightbox": "^3.2.3-3"
-  }
+  },
+"author": {
+    "name": "Praveen Pokharel"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
