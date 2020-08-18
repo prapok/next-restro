@@ -1,0 +1,183 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    background-image: url('../img/images/bg-topview.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 5% 0px 5%;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.middle h1{
+    font-size: 40px;
+}
+
+.middle p{
+    color: #FFF;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.middle .container{
+    margin: 0px auto 0px auto;
+}
+
+.brand{
+    margin: auto;
+}
+
+.count-down{
+    max-width: 75%;
+    margin: auto;
+}
+
+.counter, .date{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter{
+    font-size: 60px;
+    text-align: center;
+}
+    
+.date{
+    text-align: center;
+    font-size: 18px;   
+}
+
+.bottom-social{
+    margin: auto;
+    width: 144px;
+}
+
+/* ==========================================================================
+    MEDIA QUERIES MODULE.
+========================================================================== */
+
+@media (max-width:1200px) { 
+.middle {
+    padding: 0px;
+}
+
+}
+
+@media (max-width:992px) { 
+.counter{
+    font-size: 45px;
+}
+    
+.date{
+    text-align: center;
+    font-size: 16px;   
+}
+    
+.count-down{
+    max-width: 100%;
+    margin: auto;
+}
+     
+.brand{
+    width: 200px;
+} 
+    
+.brand img{
+    width: 100%;
+}
+    
+.middle h1{
+    font-size: 30px;
+}
+    
+.middle p{
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: px;
+}
+
+}
+
+@media (max-width:768px) { 
+.counter{
+    font-size: 35px;
+}
+    
+.date{
+    text-align: center;
+    font-size: 14px;   
+}
+    
+.middle h1{
+    font-size: 25px;
+}
+    
+.middle p{
+    font-size: 14px;
+}
+    
+.brand{
+    width: 150px;
+} 
+
+
+}
+
+@media (max-width:576px) {  
+.middle {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+}
+    
+.counter{
+    font-size: 25px;
+}
+    
+.date{
+    text-align: center;
+    font-size: 13px;   
+}
+
+}
+
+@media (max-width:450px) {  
+
+}
