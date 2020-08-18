@@ -2,7 +2,7 @@ import {NextSeo} from 'next-seo';
 import BoxPanel from '../box.panel';
 import PageIntro from '../page.intro';
 import OurStaffs from '../staffs';
-import SectionFullWidthImage from '../SectionFullWidthImg';
+import SectionFullWidthImage from '../sectionFwidth';
 import BoxListCard from '../card/boxListCardImg';
 import GalleryMagnetic from '../gallery/gallery.mag';
 import FoodMenu from '../food-menu/foodmenu';
